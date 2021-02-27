@@ -177,7 +177,7 @@ public class Student
 	public void calculateGrade()
 	{
 		if(this.percentage >= 95.0){
-			this.grade = "A+";
+			this.setGrade("A+");
 		}else if(this.percentage >= 87.0){
 			this.grade = "A";
 		}else if(this.percentage >= 80.0){
